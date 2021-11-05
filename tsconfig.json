@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "sourceMap": false,
+      "resolveJsonModule": true,
+      "lib": [ "es2015" ],
+      "skipLibCheck": true
+  
+  
+    },
+    "include": ["src/**/*", "tests/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
